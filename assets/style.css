@@ -2,14 +2,14 @@
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #0c6260;
+    background-color: #132743;
     color: #ffffff;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    color: #d9dcd6;
+    color: white;
 }
 
 .header div {
@@ -41,11 +41,16 @@ nav {
   }
   
   nav h2 {
-    color: #13293d;
+    color: white;
     padding: 14px 20px;
     text-decoration: none;
+    position: absolute;
   }
   
+  nav img {
+    object-fit: fill;
+  }
+
   /* Style the body */
   
   .main-container {
@@ -56,27 +61,27 @@ nav {
   }
   
   .about-me {
-    flex: 0 0 30%;
-    padding-top: 30px;
+    flex: 0 0 25%;
+    padding: 10px;
     height: 100px;
     border-right: green solid 5px;
-    text-align: center;
+    text-align: right;
     color: black;
     margin-bottom: 50px;
   }
   .detail {
-    flex: 0 0 70%;
+    flex: 0 0 75%;
     padding-top: 30px;
     height: 100px;
     text-align: center;
     color: black;
   }
   .work {
-    flex: 0 0 30%;
-    padding-top: 0px;
+    flex: 0 0 25%;
+    padding: 10px;
     height: 100px;
     border-right: green solid 5px;
-    text-align: center;
+    text-align: right;
     color: black;
   }
   
@@ -88,48 +93,72 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   
   
   .card-main {
     border-style: solid;
-    border-width: 1px;
+    border-width: 4px;
+    border-color: #0c6260;
     padding: 10px;
     flex: 0 0 100%;
     height: 300px;
   }
   
   .card-main img {
-    width: 100%;
+    width: 45%;
+    height: max-height;
+    object-fit: fill;
+  }
+
+  .card-main div {
+    display: inline-block;
+    color: white;
+    background-color: #0c6260;
+    padding: 10px;
+    
   }
 
   .card {
     border-style: solid;
-    border-width: 1px;
+    border-width: 4px;
+    border-color: #0c6260;
     padding: 10px;
-    flex: 0 0 45%;
+    flex: 0 0 47%;
+    gap: 20px;
+    
   }  
   
   .card img {
     width: 100%;
+    height: max-height;
+  }
+
+  .card div {
+    display: inline-block;
+    color: white;
+    background-color: #0c6260;
+    padding: 10px;
+  }
+
+  
+  .contact-card {
+    flex: 0 0 75%;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    color: black;
   }
 
   .contact-me {
-    flex: 0 0 30%;
-    padding-top: 30px;
+    flex: 0 0 25%;
+    padding: 10px;
     height: 100px;
     border-right: green solid 5px;
-    text-align: center;
+    text-align: right;
     color: black;
     margin-bottom: 50px;
-  }
-  .contact-card {
-    flex: 0 0 70%;
-    padding-top: 30px;
-    height: 100px;
-    text-align: center;
-    color: black;
   }
 
 
