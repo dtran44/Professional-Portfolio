@@ -1,12 +1,17 @@
-# Professional-Portfolio
-To view a candidate's professional portfolio
-## Description
-The goal of this project was to improve the codebase for a client website in order to:
--  Follow accessibility standards 
--  Increase Long-term sustainability 
--  Optimise site for search engines
+# Professional-Portfolio -Diana Tran
 
-I learnt how to apply accessibility standards to the HTML & CSS code and to optimise the search engine with an effective title. 
+## Description
+The goal of this project was to create a Professional Portfolio from scratch for prospetive employers to view my work. The webpage has the following sections: 
+1. About me section 
+2. Presentation of my works 
+3. My Contact details
+
+I learnt how to build a webpage from scratch using HTML and CSS. Specifically, I created the following: 
+- Flex box functionality in CSS to create a responsive webpage for various screens and devices
+- CSS to style the webpage such as setting fonts, colors, background colors, padding, margins, height, text-aligns, etc.
+- Accessible HTML code
+- Navigation links to allow the employer to scroll to the corresponding section
+- A link to my main work which takes the user to the deployed website
 
 ## Installation
 

@@ -10,7 +10,7 @@
 
 /* Style the h1 with display, font size and color */
 .header h1 {
-    display: inline-block;
+    display: inline-flex;
     font-size: 48px;
     color: white;
 }
@@ -34,6 +34,16 @@
     display: inline-block;
     margin-left: 25px;
     color: white;
+}
+
+/* Creates a higlight colour when there is a hover over the navigation links */
+.header div ul li:hover {
+  background: #0099cc;
+  color: white;
+}
+
+.header div ul li:hover a {
+  color: white;
 }
 
 /* Style the subtitle section with flex, color and position */
@@ -83,7 +93,7 @@ nav {
     text-align: left;
     color: black;
     font-size: 110%;
-    line-height: 1.3;
+    line-height: 1.5;
   }
 
   /* Style the "Work" section with flex, color and positions */
@@ -110,7 +120,7 @@ nav {
     border-left: 5px solid #132743;
   }
   
-  /* Style the 'first work' larger than the other works with flex 100% */
+  /* Style the 'main work' larger than the other works with flex 100% */
 
   .card-main {
     border-style: solid;
@@ -119,13 +129,13 @@ nav {
     flex: 0 0 100%;
   }
   
-  /* Style the 'first work' image */
+  /* Style the 'main work' image */
   .card-main img {
     width: 90%;
     height: max-height;
   }
 
-/* Style the 'first work' card with color and display */
+/* Style the 'main work' card with color and display */
 
   .card-main div {
     display: inline-block;
@@ -134,14 +144,14 @@ nav {
     padding: 10px;
   }
 
-  /* Creates a shadow when there is a hover over the 'first work' image card */
+  /* Creates a shadow when there is a hover over the 'main work' image card */
   .card-main:hover,
   .card-main:hover:hover .card-header {
     box-shadow: inset 0px 0px 8px rgb(102, 122, 236), 0 0 15px rgb(102, 144, 236);
   }
 
 
-  /* Style the 'other work' cards smaller than the 'first work' card with flex 49% */
+  /* Style the 'other work' cards smaller than the 'main work' card with flex 49% */
   .card {
     border-style: solid;
     border-width: 4px;
@@ -204,10 +214,28 @@ nav {
     padding: 15px;
 }
 
+
+/* media query for mobile devices */
+@media screen and (max-width: 480px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+/* media query for tablets */
   @media screen and (max-width: 768px) {
     main,
     nav {
       flex-direction: column;
     }
   }
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  main,
+    nav {
+      flex-direction: column;
+    }
+}
+
 
