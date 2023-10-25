@@ -1,4 +1,6 @@
 /* === HEADER === */
+
+/* Style the header with font and colors */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -6,12 +8,14 @@
     color: #ffffff;
 }
 
+/* Style the h1 with display, font size and color */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color: white;
 }
 
+/* Style the h1 with font, padding and margin*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -20,19 +24,19 @@
     font-size: 25px;
 }
 
+/* Style the navigation links with no bullet points */
 .header div ul {
     list-style-type: none;
 }
 
+/* Style the navigation links with colour and display */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-    color: #d9dcd6;
+    color: white;
 }
 
-/* === BODY === */
-
-/* Style the top navigation bar */
+/* Style the subtitle section with flex, color and position */
 nav {
     display: flex;
     justify-content: flex-end;
@@ -42,7 +46,6 @@ nav {
   nav h2 {
     color: white;
     padding: 14px 20px;
-    text-decoration: none;
     position: absolute;
   }
   
@@ -50,8 +53,9 @@ nav {
     object-fit: fill;
   }
 
-  /* Style the body */
-  
+/* === BODY === */
+
+  /* Style the main container with flex and background color */
   .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +64,7 @@ nav {
     background-color: #f8f8f8;
   }
   
+  /* Style the "About me" section with flex, color and positions */
   .about-me {
     flex: 0 0 25%;
     padding: 20px;
@@ -81,6 +86,7 @@ nav {
     line-height: 1.3;
   }
 
+  /* Style the "Work" section with flex, color and positions */
   .work {
     flex: 0 0 25%;
     padding: 30px;
@@ -104,6 +110,7 @@ nav {
     border-left: 5px solid #132743;
   }
   
+  /* Style the 'first work' larger than the other works with flex 100% */
 
   .card-main {
     border-style: solid;
@@ -112,10 +119,13 @@ nav {
     flex: 0 0 100%;
   }
   
+  /* Style the 'first work' image */
   .card-main img {
     width: 90%;
     height: max-height;
   }
+
+/* Style the 'first work' card with color and display */
 
   .card-main div {
     display: inline-block;
@@ -124,11 +134,14 @@ nav {
     padding: 10px;
   }
 
+  /* Creates a shadow when there is a hover over the 'first work' image card */
   .card-main:hover,
   .card-main:hover:hover .card-header {
     box-shadow: inset 0px 0px 8px rgb(102, 122, 236), 0 0 15px rgb(102, 144, 236);
   }
 
+
+  /* Style the 'other work' cards smaller than the 'first work' card with flex 49% */
   .card {
     border-style: solid;
     border-width: 4px;
@@ -138,11 +151,13 @@ nav {
     
   }  
   
+  /* Style the 'other work' card image */
   .card img {
     width: 100%;
     height: max-height;
   }
 
+  /* Style the 'other work' cards with color and display */
   .card div {
     display: inline-block;
     color: white;
@@ -150,11 +165,13 @@ nav {
     padding: 10px;
   }
 
+  /* Creates a shadow when there is a hover over the 'other works' image cards */
   .card:hover,
   .card:hover:hover .card-header {
     box-shadow: inset 0px 0px 8px rgb(102, 122, 236), 0 0 15px rgb(102, 144, 236);
   }
 
+  /* Style the "Contact me" section with flex, color and positions */
   .contact-me {
     flex: 0 0 25%;
     padding: 30px;
@@ -174,10 +191,12 @@ nav {
     color: black;
   }
 
+  /* Style the contact details with no bullet points */
   .contact-card ul {
   list-style-type: none;
   }
 
+  /* Style the contact details with colour and display */
   .contact-card ul li {
     display: inline-block;
     color: black;
