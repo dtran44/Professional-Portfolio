@@ -32,7 +32,6 @@
 
 /* === BODY === */
 
-
 /* Style the top navigation bar */
 nav {
     display: flex;
@@ -58,6 +57,7 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
+    background-color: #f8f8f8;
   }
   
   .about-me {
@@ -104,7 +104,7 @@ nav {
     border-left: 5px solid #132743;
   }
   
-  
+
   .card-main {
     border-style: solid;
     border-width: 4px;
@@ -122,6 +122,11 @@ nav {
     color: white;
     background-color: #0c6260;
     padding: 10px;
+  }
+
+  .card-main:hover,
+  .card-main:hover:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgb(102, 122, 236), 0 0 15px rgb(102, 144, 236);
   }
 
   .card {
@@ -145,8 +150,10 @@ nav {
     padding: 10px;
   }
 
-  
-  
+  .card:hover,
+  .card:hover:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgb(102, 122, 236), 0 0 15px rgb(102, 144, 236);
+  }
 
   .contact-me {
     flex: 0 0 25%;
@@ -157,17 +164,26 @@ nav {
     text-align: right;
     color: black;
     margin-bottom: 50px;
-    
   }
+
   .contact-card {
     flex: 0 0 75%;
     padding: 20px;
     height: 100px;
     text-align: center;
     color: black;
-    display: inline-block;
-    list-style-type: none;
   }
+
+  .contact-card ul {
+  list-style-type: none;
+  }
+
+  .contact-card ul li {
+    display: inline-block;
+    color: black;
+    font-size: 150%;
+    padding: 15px;
+}
 
   @media screen and (max-width: 768px) {
     main,
@@ -175,5 +191,4 @@ nav {
       flex-direction: column;
     }
   }
-
 
