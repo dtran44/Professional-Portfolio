@@ -22,7 +22,7 @@ N/A
 Link: https://dtran44.github.io/Professional-Portfolio/
 
 Screenshot: 
-[alt text]([assets/images/Diana Tran_Professional Portfolio screenshot.jpg)]
+![alt text]([assets/images/Diana Tran_Professional Portfolio screenshot.jpg)(https://github.com/dtran44/Professional-Portfolio/blob/main/assets/images/Diana%20Tran_Professional%20Portfolio%20screenshot.jpg)
 
 ## License
 
