@@ -1,9 +1,9 @@
 # Diana Tran - Professional-Portfolio
 
 ## Description
-The goal of this project was to create a Professional Portfolio from scratch for prospetive employers to view my work. The webpage has the following sections: 
+The goal of this project was to create a Professional Portfolio from scratch for prospetive employers to view my sample works. The webpage has the following sections: 
 1. About me section 
-2. Presentation of my works 
+2. Presentation of my sample works 
 3. My Contact details
 
 I learnt how to build a webpage from scratch using HTML and CSS. Specifically, I used the following: 
@@ -19,10 +19,10 @@ N/A
 
 ## Usage
 
-Link: https://dtran44.github.io/Horiseon-Marketing-website/
+Link: https://dtran44.github.io/Professional-Portfolio/
 
 Screenshot: 
-[alt text]([assets/images/Diana Tran_Professional Portfolio screenshot.jpg)](https://github.com/dtran44/Horiseon-Marketing-website/blob/main/assets/images/Horiseon-Marketing-website.html.png)
+[alt text]([assets/images/Diana Tran_Professional Portfolio screenshot.jpg)]
 
 ## License
 
