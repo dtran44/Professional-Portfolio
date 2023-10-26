@@ -216,27 +216,6 @@ nav {
 }
 
 
-/* media query for mobile devices */
-@media screen and (max-width: 480px) {
-  main,
-  nav {
-    flex-direction: column;
-  }
-}
-/* media query for tablets */
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
 
-/* media query for larger screens */
-@media screen and (min-width: 992px) {
-  main,
-    nav {
-      flex-direction: column;
-    }
-}
 
 
