@@ -30,6 +30,6 @@ N/A
 
 
 ## References
-Coyier, Chris. (9 Dec 2022) "A Complete Guide to Flexbox," https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-"CSS Text Spacing," https://www.w3schools.com/css/css_text_spacing.asp"
-Freepik images (2023), "https://www.freepik.com/"
+- Coyier, Chris. (9 Dec 2022) "A Complete Guide to Flexbox," https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+- "CSS Text Spacing," https://www.w3schools.com/css/css_text_spacing.asp"
+- Freepik images (2023), "https://www.freepik.com/"
