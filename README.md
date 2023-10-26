@@ -1,4 +1,4 @@
-# Professional-Portfolio -Diana Tran
+# Diana Tran - Professional-Portfolio
 
 ## Description
 The goal of this project was to create a Professional Portfolio from scratch for prospetive employers to view my work. The webpage has the following sections: 
@@ -6,7 +6,7 @@ The goal of this project was to create a Professional Portfolio from scratch for
 2. Presentation of my works 
 3. My Contact details
 
-I learnt how to build a webpage from scratch using HTML and CSS. Specifically, I created the following: 
+I learnt how to build a webpage from scratch using HTML and CSS. Specifically, I used the following: 
 - Flex box functionality in CSS to create a responsive webpage for various screens and devices
 - CSS to style the webpage such as setting fonts, colors, background colors, padding, margins, height, text-aligns, etc.
 - Accessible HTML code
@@ -22,7 +22,7 @@ N/A
 Link: https://dtran44.github.io/Horiseon-Marketing-website/
 
 Screenshot: 
-[alt text]([assets/images/Horiseon-Marketing-website.html)](https://github.com/dtran44/Horiseon-Marketing-website/blob/main/assets/images/Horiseon-Marketing-website.html.png)
+[alt text]([assets/images/Diana Tran_Professional Portfolio screenshot.jpg)](https://github.com/dtran44/Horiseon-Marketing-website/blob/main/assets/images/Horiseon-Marketing-website.html.png)
 
 ## License
 
@@ -30,5 +30,6 @@ N/A
 
 
 ## References
-Pavlik, Vlado. (3 Dec 2022) "Semantic HTML: What It Is and How to Use It Correctly," https://www.semrush.com/blog/semantic-html5-guide/
-Starr, Jeff. (3 July 2018) "Obsessive CSS Code Formatting: Organization, Comments, and Signatures," https://perishablepress.com/obsessive-css-code-formatting-organization-comments-and-signatures/
+Coyier, Chris. (9 Dec 2022) "A Complete Guide to Flexbox," https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+"CSS Text Spacing," https://www.w3schools.com/css/css_text_spacing.asp"
+Freepik images (2023), "https://www.freepik.com/"
